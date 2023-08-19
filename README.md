@@ -1,18 +1,15 @@
-## Getting Started
+Title : ATM-MACHINE
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Description : It is a console based application for begginers in Java database connectivity, which is written in basic Java code, which
+              works similarly to our atm machines.which has files like newuser,olduser if you are old user you can perform operations like
+              withdrawing,changing pin number,checking account balance otherwise you can create an account by giving your accno,name,pin
+              which is stored in a sql database.its works with simple java code and sql which does'nt dive deep into oops concept of java.
 
-## Folder Structure
+Getting started : Before, you are executing the progam you meed to create a database in your localhost using mysql workbench nad create a table
+                  user which, contains accno,name,pin,balance.
 
-The workspace contains two folders by default, where:
+Dependencies : Then, you need to add jar file i.e, mysql connector to your reference library using this link
+               https://dev.mysql.com/downloads/connector/j
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Execution : you need to run the code by keeping it in the home page.
+               
